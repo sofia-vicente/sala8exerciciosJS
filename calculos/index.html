@@ -3,62 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>calculos</title>
 </head>
 <body>
-    <h1>Calculos</h1> 
-    <br>
-    <div class="somar">
-        <label for="n1">Primeiro numero</label>
-        <input type="number" id="n1">
+    <h1>Cálculos</h1>
+    <label for="n1">Digite um number</label>
+    <input type="number" id="n1">
+    <label for="n2">Digite um outro number</label>
+    <input type="number" id="n2">
+    <label for="n3">Digite um outro number</label>
+    <input type="number" id="n3">
+    <label for="n4">Digite um outro number</label>
+    <input type="number" id="n4">
+    <button onclick="somar()">Somar</button>
+    <p id="res"></p>
 
-        <label for="n2">Segundo numero</label>
-        <input type="number" id="n2">
 
-        <button onclick="somar()">SOMAR</button>
-
-        <p id="resposta"></p>
-    </div>
-    <br>
-<div>
-        <label for="n3">Primeiro numero</label>
-        <input type="number" id="n3">
-
-        <label for="n4">Segundo numero</label>
-        <input type="number" id="n4">
-
-        <button onclick="sub()">SUB</button>
-
-        <p id="resSub"></p>
-    </div>
-    <br>
-    
-
-    <div>
-        <label for="n5">Primeiro numero</label>
-        <input type="number" id="n5">
-
-        <label for="n6">Segundo numero</label>
-        <input type="number" id="n6">
-
-        <button onclick="mult()">MULT</button>
-
-        <p id="resMult"></p>
-    </div>
-    <br>
-
-     <div>
-        <label for="n7">Primeiro numero</label>
-        <input type="number" id="n7">
-
-        <label for="n8">Segundo numero</label>
-        <input type="number" id="n8">
-
-        <button onclick="div()">DIV</button>
-
-        <p id="resDiv"></p>
-    </div>
 
     <script src="script.js"></script>
 </body>
