@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>prints e input</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>teste</h1>
+    <h1>teste de prints e input</h1>
     <main>
+        <label for="i1">insira um texto</label>
+        <input type="text" id="i1"><br><hr><br>
+            
+        <label for="i2">escolha uma cor </label>
+        <input type="color" id="i2"><br><hr><br>
+
+         <label for="i3">escolha uma data </label>
+        <input type="date" id="i3"><br><hr><br>
+
+        <label for="i4">escolha s ou n </label>
+        <input type="checkbox" id="i4"><br><hr><br>
+
+        <button onclick="mostrar()">MOSTRAR</button>
 
     </main>
-    <div>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+    <div  id="results">
+        <p id="printTexto">  </p>
+        <p id= "printColor"></p>
+        <p id="printData"></p>
+        <p id="printCheck"></p>
         <p></p>
         <p></p>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
