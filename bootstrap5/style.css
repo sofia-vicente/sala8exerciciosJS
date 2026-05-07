@@ -17,6 +17,7 @@ nav{
     justify-content: center;
     gap: 20px;
     animation: fromTop 500ms ease-in-out;
+    z-index: 999;
 }
 
 @keyframes fromTop {
@@ -31,7 +32,7 @@ nav{
 
 a{
     text-decoration: none !important;
-    color: #090909;
+    color: #090909 !important;
     font-size: 20px;
     opacity: 0.5;
     font-weight: 600;
@@ -44,12 +45,11 @@ a:hover{
 }
 
 body{
-    padding-top: 80px ;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 150px ;
+    padding-top: 150px;
 }
 
 hr{
@@ -57,9 +57,11 @@ hr{
 }
 
 .central{
- display: flex;
- align-items: center;
- justify-content: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.list-group{
+    width: 400px;
+}
